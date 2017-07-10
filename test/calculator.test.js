@@ -3,7 +3,7 @@ const calculator = require ('../src/calculator');
 
 describe('calculator library', () => {
   it ('adds values', () => {
-    const sum = calculator.add();
-    assert.equal(sum, 2);
+    const sum = calculator.add(1,4);
+    assert.equal(sum, 5);
   });
 });
