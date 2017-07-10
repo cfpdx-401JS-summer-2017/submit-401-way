@@ -13,7 +13,7 @@ describe('calculator library', () => {
   });
 
   it ('multiplies values', () => {
-    const product = calculator.multiply();
+    const product = calculator.multiply(1, 4);
     assert.equal(product, 4);
   });
 });

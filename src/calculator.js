@@ -4,6 +4,6 @@ calculator.add = (a, b) => a + b;
 
 calculator.subtract = (a, b) => a - b;
 
-calculator.multiply = () => 0;
+calculator.multiply = (a, b) => a * b;
 
 module.exports = calculator;
