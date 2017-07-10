@@ -11,8 +11,13 @@ describe('calculator library', () => {
         assert.equal(sum, 2);
     });
 
-    it('subtracts numbers together', () => {
+    it('subtracts numbers from each other', () => {
         const diff = calculator.subtract(2,1);
         assert.equal(diff, 1);
+    });
+
+    it('multiplies numbers together', () => {
+        const prod = calculator.multiply(2,2);
+        assert.equal(prod, 4);
     });
 });
