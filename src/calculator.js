@@ -11,7 +11,8 @@ function multiply(x,y) {
 function devide(x,y) {
     return x %= y;
 };
-module.exports = add; 
-module.exports =subtract;
-module.exports = multiply;
-module.exports =devide;
+module.exports = {
+    add,subtract, multiply, devide 
+};
+
+
