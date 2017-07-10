@@ -1,0 +1,23 @@
+{
+  "name": "submit-401-way",
+  "version": "1.0.0",
+  "description": "A calulation app",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha tests",
+    "start": "npm test -- -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thomson42/submit-401-way.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thomson42/submit-401-way/issues"
+  },
+  "homepage": "https://github.com/Thomson42/submit-401-way#readme"
+}
