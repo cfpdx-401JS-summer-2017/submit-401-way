@@ -20,4 +20,9 @@ describe('calculator library', () => {
         const prod = calculator.multiply(2,2);
         assert.equal(prod, 4);
     });
+
+    it('divide numbers', () => {
+        const frac = calculator.divide(4,2);
+        assert.equal(frac, 2);
+    });
 });

@@ -12,4 +12,8 @@ calculator.multiply = function(a, b) {
     return a * b;
 };
 
+calculator.divide = function(a, b) {
+    return a / b;
+};
+
 module.exports = calculator;
