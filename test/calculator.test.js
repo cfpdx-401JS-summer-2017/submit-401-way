@@ -8,7 +8,12 @@ describe('calculator library', () => {
   });
 
   it ('subtracts values', () => {
-    const difference = calculator.subtract();
+    const difference = calculator.subtract(3, 2);
     assert.equal(difference, 1);
+  });
+
+  it ('multiplies values', () => {
+    const product = calculator.multiply();
+    assert.equal(product, 4);
   });
 });
