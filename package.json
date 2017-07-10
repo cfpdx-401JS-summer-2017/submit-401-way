@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/add.js",
   "scripts": {
-    "test": "mocha tests",
+    "test": "mocha test",
     "start": "npm test -- -w"
   },
   "repository": {
