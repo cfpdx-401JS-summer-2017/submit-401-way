@@ -22,7 +22,7 @@ describe('calculator library', () => {
     });
 
     it('divide numbers', () => {
-        const frac = calculator.divide(4,2);
+        const frac = calculator.divide(4,0);
         assert.equal(frac, 2);
     });
 });

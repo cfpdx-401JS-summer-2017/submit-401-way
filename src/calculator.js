@@ -13,7 +13,11 @@ calculator.multiply = function(a, b) {
 };
 
 calculator.divide = function(a, b) {
-    return a / b;
+    if (b === 0) {
+        throw new Error('you can not divide by zero');
+    } else {
+        return a / b;
+    }
 };
 
 module.exports = calculator;
