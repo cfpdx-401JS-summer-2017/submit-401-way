@@ -6,4 +6,15 @@ describe('division', () => {
         const result = divide(3,2);
         assert.equal(result, 1.5);
     });
+
+    it('throws an error when dividing by zero', () => {
+        let errored = false;
+        try{
+            divide(10,0);
+        }
+        catch(err) {
+            errored = true;
+        }
+        assert.ok(errored);
+    });
 });
