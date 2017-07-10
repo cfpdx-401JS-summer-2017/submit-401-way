@@ -1,5 +1,3 @@
-'use strict';
-
 const assert = require('assert');
 const add = require('../src/add.js');
 
