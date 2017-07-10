@@ -3,9 +3,8 @@ const add = require('../src/add');
 
 describe('adding function', () => {
     it('adds two numbers', () => {
-        const sum = add({x:5, y:2});
+        const sum = add(5,2);
         assert.equal(sum, 7);
     });
-
 
 });
