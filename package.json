@@ -1,7 +1,7 @@
 {
   "name": "submit-401-way",
   "version": "1.0.0",
-  "main": "  ",
+  "main": "src/calculator.js",
   "scripts": {
     "test": "mocha tests", 
     "start": "npm test -- -w"
