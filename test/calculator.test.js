@@ -18,7 +18,7 @@ describe('calculator library', () => {
   });
 
   it ('divides values', () => {
-    const dividend = calculator.divide();
-    assert.equal(dividend, 1);
+    const dividend = calculator.divide(6,2);
+    assert.equal(dividend, 3);
   });
 });
