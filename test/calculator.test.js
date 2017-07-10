@@ -16,4 +16,9 @@ describe('calculator library', () => {
     const product = calculator.multiply(1, 4);
     assert.equal(product, 4);
   });
+
+  it ('divides values', () => {
+    const dividend = calculator.divide();
+    assert.equal(dividend, 1);
+  });
 });
