@@ -25,11 +25,17 @@ describe('subtract', function() {
 
 describe('devide', function() {
     it('splits two int new result',() => {
-        const result = calculator.devide(2,0);
+        const result = calculator.devide(2,2);
         assert.equal(result, 0);
     });
     it ('can not devide by 0', () => {
         let errored = false;
-        try
-    }
+        try { 
+            devide(5, 0);
+        }
+        catch(err) {
+            errored = true;
+        }
+        assert.ok(errored);
+    });
 });
