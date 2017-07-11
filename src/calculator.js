@@ -9,6 +9,7 @@ function multiply(x,y) {
     return x * y;
 };
 function devide(x,y) {
+    if (devide, -NaN) throw('can not devide by 0');
     return x %= y;
 };
 module.exports = {
