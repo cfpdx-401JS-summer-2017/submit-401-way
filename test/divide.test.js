@@ -1,0 +1,10 @@
+const assert = require('assert');
+const divide = require('../src/divide');
+
+describe('dividing two numbers', () => {
+    it('divides two numbers', () => {
+        const quotient = divide(2, 100);
+        assert.equal(quotient, 50);
+    });
+
+});
